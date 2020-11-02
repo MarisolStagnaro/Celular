@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor-celular{
+    position: relative;
+    width: 300px;
+    height: 450px;
+    margin:auto;
+    border-width: 60px 8px;
+    border-style: solid;
+    border-color: rgb(4, 22, 56);
+    border-radius:12px;
+}
+
+.caja-superior{
+    height:0px;
+    width: 100%;
+}
+
+.camara, .notificaciones, .audio, .parlante, .sensor, .encendido{
+    display: block;
+    position: absolute;
+    content: '';    
+    transform: translateX(-50%);
+}
+
+.parlante{
+    width: 70px;
+    height: 5px;
+    background-color: rgb(78, 78, 78);
+    border-radius: 17px;
+    border: 3px solid gray;
+    top:-35px;
+    left: 50%;
+}
+
+
+.sensor{
+    width: 15px;
+    height: 5px;
+    background-color: black;
+    border-radius: 17px;
+    border: 3px solid gray;
+    top:-35px;
+    left: 23%;
+}
+
+.camara{
+    top:-40px;
+    left: 70%;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 17px;
+    border: 3px solid gray;
+}
+
+.notificaciones{
+    top:-35px;
+    left: 15%;
+    width: 5px;
+    height: 5px;
+    background-color: rgb(14, 253, 233);
+    border-radius: 12px;
+    border: 3px solid gray;
+}
+
+.audio{
+    top:80px;
+    left: -3%;
+    width: 5px;
+    height: 75px;
+    background-color: rgb(4, 22, 56);
+}
+
+.encendido{
+    top:80px;
+    left: 103%;
+    width: 5px;
+    height: 50px;
+    background-color: rgb(4, 22, 56);
+}
+
+.pantalla{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(248, 245, 236);
+    background-image:url(Marisol\ Stagnaro\ -\ logo.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 280px 45px;
+}
+
+.boton-inicio{
+    height: 20px;
+    width: 80px;
+    background-color: rgb(4, 22, 56);
+    border: 1px solid rgb(189, 188, 188);
+    top: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    border-radius: 12px;
+}
+
+@media only screen and (max-width : 400px){
+    .contenedor-celular{
+        width: 250px;
+        height: 400px;
+        margin:auto;
+    }
+    .caja-superior{
+        width: 100%;
+    }
+    .pantalla{
+        background-size: 200px 35px;
+    }
+    .boton-inicio{
+        left: 29%;
+    }
+}
