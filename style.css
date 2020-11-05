@@ -67,7 +67,7 @@
     background-color: #35f909;
     border-radius: 12px;
     border: 0.5px solid #d4d0cd;
-    animation: efecto 1s infinite;
+    animation: efecto 3s infinite;
 }
 
 @keyframes efecto{
