@@ -3,17 +3,13 @@
     padding: 0;
 }
 
-.Main{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-}
 
 .contenedor-celular{
     position: relative;
     width: 300px;
     height: 450px;
     margin:auto;
+    margin-top:20px;
     border-width: 60px 8px;
     border-style: solid;
     border-color: rgb(4, 22, 56);
@@ -37,7 +33,7 @@
     height: 5px;
     background-color: rgb(78, 78, 78);
     border-radius: 17px;
-    border: 2px solid #d4d0cd;
+    border: 1px solid #d4d0cd;
     top:-35px;
     left: 50%;
 }
@@ -48,7 +44,7 @@
     height: 5px;
     background-color: black;
     border-radius: 17px;
-    border: 2px solid #d4d0cd;
+    border: 1px solid #d4d0cd;
     top:-35px;
     left: 23%;
 }
