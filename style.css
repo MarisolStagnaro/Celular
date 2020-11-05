@@ -64,9 +64,9 @@
     left: 15%;
     width: 5px;
     height: 5px;
-    background-color: rgb(14, 253, 233);
+    background-color: #35f909;
     border-radius: 12px;
-    border: 2px solid #d4d0cd;
+    border: 0.5px solid #d4d0cd;
     animation: efecto 1s infinite;
 }
 
