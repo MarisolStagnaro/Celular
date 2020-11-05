@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
 .contenedor-celular{
     position: relative;
     width: 300px;
@@ -31,7 +37,7 @@
     height: 5px;
     background-color: rgb(78, 78, 78);
     border-radius: 17px;
-    border: 3px solid #d4d0cd;
+    border: 2px solid #d4d0cd;
     top:-35px;
     left: 50%;
 }
@@ -42,7 +48,7 @@
     height: 5px;
     background-color: black;
     border-radius: 17px;
-    border: 3px solid #d4d0cd;
+    border: 2px solid #d4d0cd;
     top:-35px;
     left: 23%;
 }
@@ -54,7 +60,7 @@
     height: 10px;
     background-color: black;
     border-radius: 17px;
-    border: 3px solid #d4d0cd;
+    border: 2px solid #d4d0cd;
 }
 
 .notificaciones{
@@ -64,7 +70,7 @@
     height: 5px;
     background-color: rgb(14, 253, 233);
     border-radius: 12px;
-    border: 3px solid #d4d0cd;
+    border: 2px solid #d4d0cd;
 }
 
 .audio{
