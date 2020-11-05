@@ -67,6 +67,26 @@
     background-color: rgb(14, 253, 233);
     border-radius: 12px;
     border: 2px solid #d4d0cd;
+    animation: efecto 1s infinitive;
+}
+
+@keyframe efecto{
+    0%{
+        opacity:0;
+    }
+     25%{
+        opacity:0.25;
+    }
+     50%{
+        opacity:0.50;
+    }
+     50%{
+        opacity:0.75;
+    }
+     100%{
+        opacity:0;
+    }
+    
 }
 
 .audio{
