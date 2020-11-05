@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.body{
+.Main{
     display:flex;
     justify-content:center;
     align-items:center;
